@@ -1,0 +1,75 @@
+a {
+    color: #ce3761;
+}
+
+.btn-primary,
+.page-item.active .page-link {
+    border-color: #a42086;
+    background-color: #b2217b;
+}
+
+.btn-primary:hover {
+    border-color: #ce3662;
+    background-color: #ce3662;
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(87deg, #ad5389 0, #3c1053 100%) !important;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: #ce3761;
+}
+
+.text-primary {
+    color: #ce3761 !important;
+}
+
+.bg-gradient-default {
+    background: linear-gradient(87deg, #ad5389 0, #3c1053 100%) !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #df4d52;
+}
+
+.nav-pills .nav-link {
+    color: #4e174b;
+}
+
+
+.bootstrap-timepicker-widget table td input {
+    border: 1px solid #bbb;
+    width: 34px !important;
+}
+
+.select2-container--default .select2-selection--multiple {
+    border: 1px solid #fff !important;
+    padding: 3px 2px;
+    box-shadow: 0 1px 3px rgba(50, 50, 93, .15), 0 1px 0 rgba(0, 0, 0, .02);
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    font-size: .9rem;
+}
+
+.table td, .table th {
+    white-space: normal;
+}
+.table th {
+    vertical-align: middle !important;
+}
+.badge-calendar {
+    font-size: 80%;
+    display: block;
+}
+.table-fix-head          { overflow-y: auto; height: 100px; }
+.table-fix-head thead th { position: sticky; top: 0; }
+.dataTables_wrapper .row:first-child {
+    padding: 0 1.5rem;
+    font-size: 13px;
+}
+.dataTables_wrapper .row:last-child {
+    padding: 2em;
+    font-size: 13px;
+}
